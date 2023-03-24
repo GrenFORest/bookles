@@ -1,12 +1,14 @@
 console.log("ghjljk;bnm?");
-let locationOne = 3;
-let locationTwo = 4;
-let locationThree = 5;
+let randomLoc = Math.floor(Math.random()*5);
+
+let locationOne = randomLoc;
+let locationTwo = locationOne + 1;
+let locationThree = locationTwo + 1;
 
 let guess;
 
 let hits = 0;
-let guesses =0;
+let guesses = 0;
 let isSunk = false;
 
 while (isSunk == false) {
