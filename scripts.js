@@ -1,4 +1,5 @@
 
+/*
 let namezxc = "Joe";
 let zxc = 0;
 while(zxc < 2) {
@@ -7,6 +8,7 @@ while(zxc < 2) {
 }
 document.write("Happy Birthday dear " + namezxc + ",<br>");
 document.write("Happy Birthday to you.<br>");
+*/
 //----------------------------------------------------
 
 const SPENDING_THRESHOLD = 222;
@@ -38,3 +40,5 @@ console.log("Ваша покупка:" + formatAmount(amount));
 if(amount > bank_balance) {
     console.log("Вы не можете позволить себе эту покупкую :(");
 }
+//---------------------------------------------------
+
