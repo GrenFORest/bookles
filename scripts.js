@@ -42,3 +42,18 @@ if(amount > bank_balance) {
 }
 //---------------------------------------------------
 
+var kb = 1287;
+var tooBig = (kb > 1000);
+var urgent = true;
+var sendFile = (urgent == true || tooBig == false);
+console.log(sendFile + " This one.");
+
+var keyPressed = "N";
+var points = 111;
+var level;
+if (keyPressed =="Y"||(points >100 && points<200)) {
+    level = 2;
+} else {
+    level = 1;
+}
+console.log(level + " This two!")

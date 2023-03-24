@@ -1,3 +1,4 @@
+console.log("ghjljk;bnm?");
 let locationOne = 3;
 let locationTwo = 4;
 let locationThree = 5;
@@ -9,7 +10,7 @@ let guesses =0;
 let isSunk = false;
 
 while (isSunk == false) {
-    guess = prompt("Ready, aim, Fire! (enter a number from 0 - 6):");
+   guess = prompt("Ready, aim, Fire! (enter a number from 0 - 6):");
     if (guess<0 || guess>6) {
         alert("Please enter a valid cell number!");
     } else {
@@ -27,7 +28,7 @@ while (isSunk == false) {
         }
     }
 }
-let stats = "You took" + guesses + "guesses to sink the battleship, "+
+let stats = "You took " + guesses + " guesses to sink the battleship, "+
       "which means your shooting accuracy was "+ (3/guesses);
 
 alert(stats);
