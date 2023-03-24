@@ -15,9 +15,9 @@ while (count > 0) {
 }
 
 //Test for jokes
-const joke = "JavaScript walked into a bar....";
-let toldJoke = true;
+const joke = "JavaScript walked into a bar....</br>";
 const punchline = "Better watch out for those semi-colons.";
+let toldJoke = true;
 
 if (toldJoke == false) {
     document.write(punchline);
@@ -25,3 +25,12 @@ if (toldJoke == false) {
     document.write(joke);
 }
 //Movie Night
+var zipCode = 98104;
+var joesFavoriteMovie = "Forbiddev Planet";
+var movieTickets = 7;
+
+if (movieTickets >= 9) {
+    document.write('Too much!');
+} else {
+    document.write("We're going to see " + joesFavoriteMovie);
+}
